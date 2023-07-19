@@ -1,16 +1,11 @@
 #include "main.h"
 /**
- * add - a program that adds two integers
- * @a: parameter
- * @b: parameter
- * Return: (0) (Success)
+ * add - adds two integers
+ * @m: parameter
+ * @n: parameter
+ * Return: sum of two numbers (Success)
  */
-int add(int a, int b)
+int add(int m, int n)
 {
-	int c;
-
-	c = a + b;
-
-		_putchar(c + '0');
-	return (c);
+	return (m + n);
 }
