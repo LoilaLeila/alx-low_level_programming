@@ -24,8 +24,8 @@ char *argstostr(int ac, char **av)
 	{
 		strcpy(result + position, av[i]);
 		position += strlen(av[i]);
+		if (result[position] == '\0')
 		result[position++] = '\n';
 	}
-	result[position] = '\0';
 	return (result);
 }
